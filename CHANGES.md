@@ -31,3 +31,8 @@ All notable AE2UD Migrator changes are grouped by the version in which they firs
   Fluid and gas drops and packets become the fluids and gases they stood for. The encoders, buffers, burette,
   packet decoder and discretizers have no equivalent and are gone; the items they held go into a chest
   beside where they stood, and their fluids into the log.
+
+- **A wireless universal terminal becomes AE2UD's wireless terminal with the same modes.** Each mode keeps
+  its own grid, the open one stays open, and the fluid and gas terminals become the plain terminal, which
+  shows every kind. The extended crafting terminals' modes are kept with their grids for when a mod
+  registers them again.
