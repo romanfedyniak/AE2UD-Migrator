@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 import com.ae2udmigrator.ae2fc.Ae2fcMigration;
 import com.ae2udmigrator.nae2.Nae2Migration;
+import com.ae2udmigrator.netvis.NetVisualiserMigration;
 import com.ae2udmigrator.wut.WutMigration;
 
 @Mod(modid = Tags.MOD_ID, name = Tags.MOD_NAME, version = Tags.VERSION, useMetadata = true,
@@ -31,5 +32,6 @@ public class AE2UDMigrator {
         Nae2Migration.register();
         Ae2fcMigration.register();
         WutMigration.register();
+        NetVisualiserMigration.register();
     }
 }

@@ -36,3 +36,6 @@ All notable AE2UD Migrator changes are grouped by the version in which they firs
   its own grid, the open one stays open, and the fluid and gas terminals become the plain terminal, which
   shows every kind. The extended crafting terminals' modes are kept with their grids for when a mod
   registers them again.
+
+- **AE Network Visualization Tool's tool becomes AE2UD's network visualiser,** still bound to its block and
+  drawing what it drew. Its colours and the rest of its settings are left behind.
