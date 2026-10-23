@@ -39,3 +39,10 @@ All notable AE2UD Migrator changes are grouped by the version in which they firs
 
 - **AE Network Visualization Tool's tool becomes AE2UD's network visualiser,** still bound to its block and
   drawing what it drew. Its colours and the rest of its settings are left behind.
+
+- **AE Wireless Channel's buses become ae2stuff's wireless blocks.** Every output bus is a wireless hub and
+  each input bus a wireless connector paired with it, and a key card bound to an output bus is a wireless
+  kit bound to the hub that stands there. ae2stuff's blocks join a network on every side, where a bus joined
+  only at its back, so a bus that stood against a cable or machine of another network now joins it to that
+  network; the log has the position of every bus, and every link with its length and the power it takes at
+  ae2stuff's default settings. A bus taken down with its link loses it, and chunks a bus kept loaded are not.
