@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
+import com.ae2udmigrator.ae2fc.Ae2fcMigration;
 import com.ae2udmigrator.nae2.Nae2Migration;
 
 @Mod(modid = Tags.MOD_ID, name = Tags.MOD_NAME, version = Tags.VERSION, useMetadata = true,
@@ -27,5 +28,6 @@ public class AE2UDMigrator {
     @Mod.EventHandler
     public void init(final FMLInitializationEvent event) {
         Nae2Migration.register();
+        Ae2fcMigration.register();
     }
 }

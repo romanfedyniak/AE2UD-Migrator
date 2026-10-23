@@ -18,3 +18,16 @@ All notable AE2UD Migrator changes are grouped by the version in which they firs
   entry, even past the number of types those take. The pattern multi-tool becomes AE2UD's. The void cells,
   the virtual pattern, the reconstruction chamber, the hyper-acceleration card and the GregTech circuit card
   have no equivalent and are gone; the chamber's items go into a chest beside where it stood.
+
+- **A world saved with AE2FluidCraft-Rework keeps its fluid autocrafting.** Its processing patterns become
+  AE2UD's, with the fluids in them, the same item twice as one entry; one that still needs more inputs than an
+  AE2UD pattern holds, or reads as nothing, becomes a blank pattern, and the log has what it was. Its crafting
+  patterns with fluid containers become crafting patterns that substitute fluids. The fluid pattern terminals,
+  the wireless one included, become AE2UD's pattern terminals. A dual or trio interface, block or part, is
+  AE2UD's interface: the fluid and gas slots move into the slots the items left free, each with what it
+  stocked, and their cards into free card slots, the rest into a chest beside it. The fluid assembler becomes
+  an interface with its patterns and its pattern expansion cards, crafted by a molecular assembler placed
+  beside it. The fluid level maintainer becomes Lazy AE2's level maintainer, when that mod is installed.
+  Fluid and gas drops and packets become the fluids and gases they stood for. The encoders, buffers, burette,
+  packet decoder and discretizers have no equivalent and are gone; the items they held go into a chest
+  beside where they stood, and their fluids into the log.
