@@ -10,6 +10,8 @@ All notable AE2UD Migrator changes are grouped by the version in which they firs
 
 ## Unreleased
 
+- **Requires AE2UD 1.6.0 or newer.** AE2UD shares its mod id with AE2 and AE2 UEL, so the version range is
+  what keeps the game from starting with either of them in its place.
 - **A world saved with NAE2 keeps what it built with it.** The dense storage cells, crafting storage and
   co-processors, the exposer, the interface P2P tunnel, the cell components and the auto-complete card become
   AE2UD's own, with what the cells hold. NAE2's beam formers become Beam Formers' small and dense beam

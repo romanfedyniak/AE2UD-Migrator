@@ -50,7 +50,7 @@ dependencies {
     // Include OSXNarratorBlocker by default for the dev env, for M1+ Macs
     runtimeOnly 'com.cleanroommc:osxnarratorblocker:1.0'
 
-    implementation rfg.deobf('com.github.romanfedyniak:AE2UD:badc24d8abb7')
+    implementation rfg.deobf('com.github.romanfedyniak:AE2UD:v1.6.0')
     // AE2UD's classes name HEI's and Mouse Tweaks' types; compiling against them needs both present.
     implementation 'mezz:jei:4.34.0'
     compileOnly rfg.deobf('curse.maven:mouse-tweaks-unofficial-461660:5876158')

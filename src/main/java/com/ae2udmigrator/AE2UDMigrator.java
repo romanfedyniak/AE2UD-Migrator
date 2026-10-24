@@ -17,10 +17,9 @@ import com.ae2udmigrator.wut.WutMigration;
 public class AE2UDMigrator {
 
     /**
-     * No version on AE2UD: the fork shares its mod id with AE2 and AE2UEL, and the version range that tells
-     * them apart waits for AE2UD's first release. The others are where some of the old content goes.
+     * After AE2UD 1.6.0, and after the mods some of the old content goes to, when they are installed.
      */
-    static final String DEPENDENCIES = "required-after:appliedenergistics2;after:beamformers;after:mekeng;"
+    static final String DEPENDENCIES = "required-after:appliedenergistics2@[1.6.0,);after:beamformers;after:mekeng;"
             + "after:ae2stuff;after:threng";
 
     public static final Logger LOG = LogManager.getLogger(Tags.MOD_NAME);
